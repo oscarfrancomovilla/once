@@ -1,0 +1,51 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#map {
+    background-color: #eee;
+    position: relative;
+}
+
+#map:after {
+    content: '';
+    height: 12px;
+    width: 12px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    border: 2px solid white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#data {
+    background-color: white;
+    padding: 20px;
+    list-style: none;
+}
+
+#iframe-map {
+    height: 40vh;
+    min-height: 320px;
+}
+
+.geo-button {
+    border: none;
+    background-color: yellow;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px 0
+}
+
+.geo-button:hover {
+    background-color: rgb(224, 224, 6); 
+}
