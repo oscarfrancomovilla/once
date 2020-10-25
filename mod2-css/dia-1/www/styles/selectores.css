@@ -1,0 +1,70 @@
+p {
+    color: darkslategray;
+    margin: 0
+}
+section {
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+
+.item-list {
+    color: darkviolet;
+    font-family: sans-serif;
+}
+.red {
+    color: orangered;
+}
+.big {
+    font-size: 20px;
+}
+.small {
+    font-size: 10px;
+}
+
+#intro {
+    background-image: url('/images/landscape.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+#ocio {
+    background-color: #ddd;
+}
+#desarrollo {
+    background-color: paleturquoise;
+}
+[id]{
+    border: 3px solid blue;
+}
+[id="ocio"]{
+    border-color: plum;
+}
+[lang="lat"] {
+    color: red;
+}
+[data-author="Tu"] {
+    color: pink;
+}
+/* selecciona todos los elementos cuyo atributo contengan la palabra oferta */
+[data-etiquetas~="oferta"] {
+    background-color: powderblue;
+    border: 1px solid blue;
+}
+
+/* selecciona todos los elementos cuyo atributo contengan la cadena de texto que podría ser un trozo de la palabra */
+[data-etiquetas*="des"] {
+    background-color: greenyellow;
+    border: 1px solid red;
+}
+
+/* selecciona todos los elementos cuyo atributo empiezen por la cadena de texto */
+[data-etiquetas^="des"] {
+    background-color: blanchedalmond;
+    border: 1px solid gray;
+}
+
+/* selecciona todos los elementos cuyo atributo empiezen por la cadena de texto */
+[data-etiquetas$="ta"] {
+    background-color: red;
+    color: white;
+}

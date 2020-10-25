@@ -1,0 +1,50 @@
+@import 'normalize.css';
+
+body {
+  background-color: powderblue;
+}
+section {
+  margin: 20px 80px;
+  padding: 20px 70px 40px 100px;
+  /* border-width: 4px;
+  border-style: dotted;
+  border-color: teal; */
+  border: 4px dotted teal;
+}
+.caja {
+  padding: 30px;
+  width: 49.5%;
+  box-sizing: border-box;
+  max-height: 100px;
+  /* min-width: 350px;
+  max-width: 880px; */
+  white-space: normal;
+  overflow: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: rgba(227, 206, 234, 0.5);
+  margin: 20px 0;
+  box-shadow: 0px 0px 10px blueviolet;
+}
+
+#caja-2 {
+  background-image: url('/images/landscape.jpg');
+  /* background-image: url('/images/elephant.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: tomato;
+  max-height: 600px;
+  height: 200px;
+}
+#caja-4 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+#caja-5 {
+  height: 100px;
+  width: 180px;
+  border-radius: 50px;
+}
+

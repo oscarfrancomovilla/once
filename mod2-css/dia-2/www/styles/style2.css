@@ -1,0 +1,25 @@
+@import 'normalize.css';
+body {
+  padding: 20px;
+}
+
+h1, p.special {
+  color: blueviolet;
+}
+
+p > strong {
+  text-transform: uppercase;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + span {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  border: 1px solid gray;
+}
+input[type="checkbox"]:checked + span {
+  background-color: blue;
+}
