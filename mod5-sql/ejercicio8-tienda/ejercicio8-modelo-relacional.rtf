@@ -1,0 +1,16 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf610
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww32440\viewh4160\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 usuarios (#id, nif, email, nombre, direccion, telefono, usuario, password)\
+secciones (#id, codigo, descripcion, fecha, nombre)\
+pedidos (#id, numero_pedido, fecha, estado, -id_usuario)\
+productos (#id, codigo, nombre, descripcion, precio)\
+usuario_seccion (#id, -id_usuario, -id_seccion)\
+seccion_producto (#id, -id_seccion, id_producto)\
+pedido_producto (#id, -id_pedido, -id_producto, precio)\
+producto_producto (#id, -id_producto, -id_producto_relacionado)\
+}
