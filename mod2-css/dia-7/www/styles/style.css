@@ -1,0 +1,72 @@
+@import 'normalize.css';
+
+@import 'print.css' print;
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center {
+    background-color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    max-width: 768px;
+    margin: auto;
+}
+
+main {
+    border: 1px solid tomato;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+aside {
+    background-color: blanchedalmond;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+/*
+@media (max-width: 600px) and  (orientation: portrait) {
+    body {
+        color: red;
+    }
+}
+
+@media (min-width: 600px), (orientation: landscape) {
+    body {
+        color: green;
+    }
+} */
+
+@media ( max-width: 600px) {
+    .center {
+        display: flex;
+        flex-direction: column;
+    }
+    aside {
+        order: -1;
+    }
+    nav {
+        text-align: center;
+    }
+    .logo {
+        order: -1;
+    }
+}

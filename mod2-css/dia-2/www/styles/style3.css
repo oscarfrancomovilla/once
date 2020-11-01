@@ -1,0 +1,44 @@
+@import 'normalize.css';
+body {
+  padding: 20px;
+}
+/* Cascada */
+
+#unico {
+  border: 1px solid red;
+  color: red;
+}
+
+.especial {
+  color: green;
+  border: none !important;
+}
+
+p.especial {
+  color: black;
+}
+
+/* especificidad: 101 */
+#navigation a {
+  background-color: red;
+}
+
+/* especificidad: 201 */
+#navigation #navigation-list a {
+  background-color: blue;
+}
+
+/* especificidad: 104 */
+nav#navigation ul li a {
+  color: yellow;
+}
+
+/* especificidad: 112 */
+#navigation ul  a.link {
+  color: white;
+}
+
+/* especificidad: 24 */
+nav ul li:nth-child(2) a:hover {
+  border: 10px solid black;
+}

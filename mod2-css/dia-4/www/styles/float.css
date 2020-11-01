@@ -1,0 +1,55 @@
+@import 'normalize.css';
+
+.container aside {
+    float: left;
+    background-color: cadetblue;
+    padding: 80px;
+    margin: 10px;
+}
+p {
+    background-color: violet;
+}
+.no-float {
+    clear: left;
+}
+
+/* Positions */
+
+.cajas {
+    margin-top: 50px
+}
+.caja {
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid teal;
+    background-color: rgba(34, 234, 34, 0.3);
+    position: static;
+}
+
+#caja-2 {
+    position: relative;
+    top: -30px;
+    right: 40px;
+}
+
+#caja-3 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 100;
+}
+.sub-caja {
+    background-color: rgba(34, 234, 34, 0.3);
+    padding: 30px;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    border: 1px solid ghostwhite;
+}
+#caja-4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: tomato;
+}
