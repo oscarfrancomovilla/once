@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  min-height: 100vh;
+  background-color: lightgray;
+  background-image: url(/img/loading.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 4rem;
+}
+
+body > header {
+  text-align: center;
+  position: absolute;
+  top: 2rem;
+  width: 100%;
+}
+
+body > header img.logo {
+  width: 4rem;
+}
+
+section.panel {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 2rem;
+  border: 1rem solid white;
+  font-size: 2rem;
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+
+section.panel h1 {
+  font-size: 8rem;
+  color: white;
+}
+
+section.panel p {
+  max-width: 30rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+section.panel p strong {
+  text-decoration: underline wavy white;
+  font-weight: normal;
+  color: black;
+}
+
+section.panel button {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 0px black;
+}
+
+section.panel.permission {
+  background-color: black;
+  color: white;
+}
+
+section.panel.positive {
+  background-color: steelblue;
+}
+
+section.panel.negative {
+  background-color: palevioletred;
+}
+
+section.panel.error {
+  background-color: red;
+  color: white;
+}
+
+section.hidden {
+  display: none;
+}
