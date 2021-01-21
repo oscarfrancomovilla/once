@@ -1,0 +1,85 @@
+.Auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Auth > main {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 8px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px 30px;
+  text-align: center;
+  transition: height 0.4s ease;
+  width: 260px;
+}
+
+.Auth.register > main {
+  height: 375px;
+}
+
+.Auth.login > main {
+  height: 240px;
+}
+
+.Auth h1 {
+  font-size: 160%;
+}
+
+.Auth form {
+  flex: 1 1 auto;
+  margin-bottom: 10px;
+}
+
+.Auth form input {
+  border: 1px solid #ccc;
+  display: block;
+  margin-bottom: 12px;
+  outline: 0;
+  padding: 8px 15px;
+  width: 100%;
+}
+
+.Auth form input:focus {
+  border-color: #5f4fde;
+}
+
+.Auth form button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  outline: 0;
+  padding: 8px 15px;
+  width: 100%;
+}
+
+.Auth form button:hover {
+  background-color: #e0e0e0;
+}
+
+.Auth form button:focus {
+  border-color: #5f4fde;
+}
+
+.Auth form .error {
+  color: #f88;
+  font-size: 80%;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.Auth aside {
+  color: #ddd;
+  font-size: 90%;
+  margin-top: 5px;
+}
+
+.Auth aside strong {
+  color: #a9a9ff;
+  cursor: pointer;
+  margin-left: 5px;
+}

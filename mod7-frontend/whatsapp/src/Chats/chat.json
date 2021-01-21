@@ -1,0 +1,26 @@
+[
+  {
+    "id": 123,
+    "contact": "Manolo",
+    "date": 1606321132,
+    "lastMessage": "Hola tío! Qué tal?",
+    "unread": 0,
+    "avatar": "https://i.imgur.com/1k10jL0.jpg"
+  },
+  {
+    "id": 150,
+    "contact": "Luisa",
+    "date": 1606361132,
+    "lastMessage": "estás ahí?",
+    "unread": 3,
+    "avatar": "/logo512.png"
+  },
+  {
+    "id": 750,
+    "contact": "Yago",
+    "date": 1606321132,
+    "lastMessage": "buenas",
+    "unread": 0,
+    "avatar": "https://i.imgur.com/1k10jL0.jpg"
+  }
+]

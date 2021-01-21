@@ -1,0 +1,32 @@
+.spinner {
+  display: flex;
+  align-items: stretch;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  margin: 10px;
+}
+
+.spinner button {
+  flex: 0 0 30px;
+  background-color: #47bc9c;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.spinner button:hover {
+  background-color: #6dcab1;
+}
+
+.spinner button:focus {
+  outline: 0;
+}
+
+.spinner .display {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  flex: 1 1 auto;
+  line-height: 30px;
+}

@@ -1,0 +1,35 @@
+header {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 5px 0 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 3px 15px;
+  height: 38px;
+  width: 100%;
+}
+
+header .logo {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header .user {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+header .avatar {
+  background-color: #ddd;
+  background-position: center center;
+  background-size: cover;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  height: 32px;
+  margin-right: 8px;
+  width: 32px;
+}

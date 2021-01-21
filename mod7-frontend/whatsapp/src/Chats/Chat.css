@@ -1,0 +1,19 @@
+.chat {
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.chat .avatar {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+}
+
+.chat .last-message {
+  width: 200px;
+}
+
+.chat .contact {
+  font-weight: bold;
+}

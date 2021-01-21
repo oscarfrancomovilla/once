@@ -1,0 +1,18 @@
+.Header {
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+.Header .first-row, .Header .second-row {
+  display: flex;
+  justify-content: center;
+}
+
+.Header div {
+  padding: 4px 10px;
+}
+
+.Header .active {
+  text-decoration: underline;
+}

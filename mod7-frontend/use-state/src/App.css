@@ -1,0 +1,8 @@
+.App {
+  color: #444;
+  padding: 20px;
+}
+
+.App > div {
+  margin-bottom: 30px;
+}
