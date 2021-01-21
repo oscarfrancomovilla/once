@@ -1,0 +1,19 @@
+npx create-react-app demo
+
+npm install react-router-dom
+Una vez instalado tenemos que inicializarlo en algun sitio y lo llevamos al index.js
+ Un <Router></Router>que envuelva a todo y lo importamos desde index.js=> 
+ 
+ import {BrowserRouter as Router} from 'react-router-dom'
+ 
+ 
+ ReactDOM.render(
+  <React.StrictMode>
+    <Router>
+      <App />
+    </Router>
+  </React.StrictMode>,
+  document.getElementById('root')
+  );
+  
+ 

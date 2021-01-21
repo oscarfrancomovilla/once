@@ -1,0 +1,20 @@
+Creo un carpeta nombre del proyecto...ej:carrefour
+dentro de la carpeta carrefour creo otra carpeta que se va a llamar www
+y dentro de la carpeta wwww creo un archivo index.html y le doy una estructura básica !+tab
+inicio el terminal dentro de ejercicio 1
+inicio npm de la siguiente manera:
+
+
+                                      npm init -y
+                               npm install browser-sync -D
+                               
+voy a package.json y al final de la línea 7 que empieza por
+ "test":"echo...y acaba en exit 1" introduzco una coma y pulso ENTER
+ seguidamente añado la fila start:
+                                
+                   "start": "browser-sync start --server 'www' --files 'www'"
+una vez hecho esto,en el terminal escribo:
+
+                                           npm start 
+
+ya puedo ir a index.html y a empezar mi proyecto.                                           

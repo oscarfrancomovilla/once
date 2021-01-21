@@ -1,0 +1,9 @@
+1-Desde vuestro esquema de vuestra base de datos del Workbench, clickamos en la opción de la barra de herramientas (Database). Seleccionamos la opción de FORWARD ENGINEER.
+
+2-No hace falta modificar ningún registro en este paso, simplemente pulsar NEXT
+
+3-Cuando lleguemos a la ventana que nos pide Seleccionar los Objetos para hacerle el Forward Engineer , seleccionamos solo la primera opción, las TABLAS.
+
+4-Ya tenemos creado el script de SQL, simplemente tenemos que guardarlo como un archivo en nuestro ordenador.
+
+5-Ponerle al archivo la extensión .sql, para tener todos vuestros archivos con la misma extensión. Sería válido como texto normal, pero prefiero esta extensión.
