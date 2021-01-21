@@ -1,0 +1,10 @@
+https://github.com/nodesource/distributions#debinstall
+
+Debian and Ubuntu based distributions (deb)
+Installation instructions
+
+Node.js v12.x:
+
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
